@@ -5,132 +5,115 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>کافه لوریان | منو</title>
 <style>
-body{font-family:Tahoma,sans-serif;background:#faf8f5;margin:0;color:#222}
-.header{text-align:center;padding:28px 15px;background:#fff;border-bottom:1px solid #eee}
-.header h1{margin:0;font-size:26px}
-.nav{display:flex;gap:8px;overflow-x:auto;padding:12px;background:#fff;position:sticky;top:0;border-bottom:1px solid #eee}
-.nav a{white-space:nowrap;background:#f0ebe3;padding:8px 14px;border-radius:20px;text-decoration:none;color:#333;font-size:13px}
+body{font-family:'B Yekan',Tahoma,sans-serif;background:#ffffff;margin:0;color:#1a2340}
+.header{text-align:center;padding:28px 15px 18px;background:#fff}
+.header img.logo{width:130px;height:130px;object-fit:cover;border-radius:50%;border:3px solid #1a2340}
+.header h1{margin:12px 0 0;font-size:26px;color:#1a2340}
+.header p{margin:4px 0;color:#1a2340;font-size:13px}
+.nav{display:flex;gap:8px;overflow-x:auto;padding:12px;background:#fff;position:sticky;top:0;border-bottom:1px solid #e5e7ef}
+.nav a{white-space:nowrap;background:#eef0f7;padding:8px 14px;border-radius:20px;text-decoration:none;color:#1a2340;font-size:13px}
 .category{padding:18px 14px 5px;max-width:700px;margin:auto}
-.category h2{font-size:19px;border-bottom:2px solid #c49a6c;padding-bottom:7px}
-.category p.en{font-size:12px;color:#999;margin:0}
-.item{display:flex;justify-content:space-between;align-items:center;background:#fff;margin:9px 0;padding:11px 13px;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
-.item-price{color:#8a6a45;font-weight:bold;white-space:nowrap}
-.footer{text-align:center;padding:30px;color:#888;font-size:13px}
+.category h2{font-size:19px;color:#1a2340;border-bottom:2px solid #1a2340;padding-bottom:7px}
+.category p.en{font-size:12px;color:#5a668a;margin:0}
+.item{display:flex;justify-content:space-between;align-items:center;background:#fff;margin:9px 0;padding:11px 13px;border-radius:12px;border:1px solid #eef0f7}
+.item-price{color:#1a2340;font-weight:bold;white-space:nowrap}
+.footer{text-align:center;padding:30px;color:#5a668a;font-size:13px}
 </style>
 </head>
 <body>
-<div class="header"><h1>کافه لوریان</h1><p>LORIAN CAFE | منوی دیجیتال</p></div>
+<div class="header">
+<img class="logo" src="logo.png" alt="لوگو لوریان">
+<h1>کافه لوریان</h1><p>LORIENT CAFE | منوی دیجیتال</p></div>
 <div class="nav">
 <a href="#cat1">قهوه بدون شیر</a><a href="#cat2">قهوه با شیر</a><a href="#cat3">قهوه سرد</a><a href="#cat4">گرم‌نوش</a><a href="#cat5">دمنوش</a><a href="#cat6">خنک‌نوش</a><a href="#cat7">اسموتی</a><a href="#cat8">میلک‌شیک</a><a href="#cat9">کیک و دسر</a><a href="#cat10">صبحانه</a><a href="#cat11">عصرانه</a>
 </div>
-
 <div class="category" id="cat1"><p class="en">Black Coffee</p><h2>قهوه بدون شیر</h2>
-<div class="item"><div>اسپرسو عربیکا</div><div class="item-price">250</div></div>
-<div class="item"><div>اسپرسو بلند</div><div class="item-price">220</div></div>
-<div class="item"><div>اسپرسو روبوستا</div><div class="item-price">190</div></div>
-<div class="item"><div>قهوه ترک</div><div class="item-price">190</div></div>
-<div class="item"><div>آمریکانو ربوستا</div><div class="item-price">200</div></div>
-<div class="item"><div>آمریکانو عربیکا</div><div class="item-price">260</div></div>
-<div class="item"><div>آمریکانو بلند</div><div class="item-price">230</div></div>
-<div class="item"><div>هیچی</div><div class="item-price">150</div></div>
+<div class="item"><div>اسپرسو عربیکا</div><div class="item-price">۲۵۰</div></div>
+<div class="item"><div>اسپرسو بلند</div><div class="item-price">۲۲۰</div></div>
+<div class="item"><div>اسپرسو روبوستا</div><div class="item-price">۱۹۰</div></div>
+<div class="item"><div>قهوه ترک</div><div class="item-price">۱۹۰</div></div>
+<div class="item"><div>آمریکانو روبوستا</div><div class="item-price">۲۰۰</div></div>
+<div class="item"><div>آمریکانو عربیکا</div><div class="item-price">۲۶۰</div></div>
+<div class="item"><div>آمریکانو بلند</div><div class="item-price">۲۳۰</div></div>
 </div>
-
 <div class="category" id="cat2"><p class="en">Milk Coffee</p><h2>قهوه با شیر</h2>
-<div class="item"><div>کورتادو</div><div class="item-price">240</div></div>
-<div class="item"><div>کاپوچینو</div><div class="item-price">260</div></div>
-<div class="item"><div>لاته</div><div class="item-price">280</div></div>
-<div class="item"><div>لاته کارامل</div><div class="item-price">320</div></div>
-<div class="item"><div>لاته فندق</div><div class="item-price">320</div></div>
-<div class="item"><div>موکا</div><div class="item-price">320</div></div>
-<div class="item"><div>لاته وانیل</div><div class="item-price">320</div></div>
-<div class="item"><div>لاته لوتوس</div><div class="item-price">320</div></div>
-<div class="item"><div>لاته نارگیل</div><div class="item-price">320</div></div>
+<div class="item"><div>کورتادو</div><div class="item-price">۲۴۰</div></div>
+<div class="item"><div>کاپوچینو</div><div class="item-price">۲۶۰</div></div>
+<div class="item"><div>لاته</div><div class="item-price">۲۸۰</div></div>
+<div class="item"><div>لاته کارامل</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>لاته فندق</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>موکا</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>لاته وانیل</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>لاته لوتوس</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>لاته نارگیل</div><div class="item-price">۳۲۰</div></div>
 </div>
-
 <div class="category" id="cat3"><p class="en">Ice Coffee</p><h2>قهوه‌های سرد</h2>
-<div class="item"><div>آیس لاته</div><div class="item-price">300</div></div>
-<div class="item"><div>آیس لاته فندق</div><div class="item-price">340</div></div>
-<div class="item"><div>آیس لاته نارگیل</div><div class="item-price">340</div></div>
-<div class="item"><div>آیس لاته وانیل</div><div class="item-price">340</div></div>
-<div class="item"><div>آیس لاته لوتوس</div><div class="item-price">340</div></div>
-<div class="item"><div>آیس لاته کارامل</div><div class="item-price">340</div></div>
-<div class="item"><div>آفوگاتو</div><div class="item-price">350</div></div>
-<div class="item"><div>آیس اوبه</div><div class="item-price">450</div></div>
-<div class="item"><div>آیس آمریکانو ربوستا</div><div class="item-price">220</div></div>
-<div class="item"><div>آیس آمریکانو بلند</div><div class="item-price">250</div></div>
-<div class="item"><div>آیس آمریکانو عربیکا</div><div class="item-price">280</div></div>
-<div class="item"><div>کن هیلو عربیکا</div><div class="item-price">260</div></div>
-<div class="item"><div>کن هیلو ربوستا</div><div class="item-price">200</div></div>
-<div class="item"><div>کن هیلو بلند</div><div class="item-price">230</div></div>
-<div class="item"><div>آیس ماچا وانیل</div><div class="item-price">390</div></div>
-<div class="item"><div>آیس پرتغال اسپرسو</div><div class="item-price">520</div></div>
+<div class="item"><div>آیس لاته</div><div class="item-price">۳۰۰</div></div>
+<div class="item"><div>آیس لاته فندق</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>آیس لاته نارگیل</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>آیس لاته وانیل</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>آیس لاته لوتوس</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>آیس لاته کارامل</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>آفوگاتو</div><div class="item-price">۳۵۰</div></div>
+<div class="item"><div>آیس آمریکانو روبوستا</div><div class="item-price">۲۲۰</div></div>
+<div class="item"><div>آیس آمریکانو بلند</div><div class="item-price">۲۵۰</div></div>
+<div class="item"><div>آیس آمریکانو عربیکا</div><div class="item-price">۲۸۰</div></div>
+<div class="item"><div>آیس ماچا وانیل</div><div class="item-price">۳۹۰</div></div>
 </div>
-
 <div class="category" id="cat4"><p class="en">Hot Drinks</p><h2>گرم‌نوش</h2>
-<div class="item"><div>هات چاکلت</div><div class="item-price">310</div></div>
-<div class="item"><div>هات چاکلت خامه‌ای</div><div class="item-price">320</div></div>
-<div class="item"><div>هات زعفران پسته</div><div class="item-price">310</div></div>
-<div class="item"><div>ماسالا</div><div class="item-price">310</div></div>
-<div class="item"><div>شیرنسکافه</div><div class="item-price">300</div></div>
-<div class="item"><div>ماچا لاته</div><div class="item-price">390</div></div>
+<div class="item"><div>هات چاکلت</div><div class="item-price">۳۱۰</div></div>
+<div class="item"><div>هات چاکلت خامه‌ای</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>هات زعفران پسته</div><div class="item-price">۳۱۰</div></div>
+<div class="item"><div>ماسالا</div><div class="item-price">۳۱۰</div></div>
+<div class="item"><div>شیر نسکافه</div><div class="item-price">۳۰۰</div></div>
+<div class="item"><div>ماچا لاته</div><div class="item-price">۳۹۰</div></div>
 </div>
-
 <div class="category" id="cat5"><p class="en">Tea & Herbal</p><h2>دمنوش</h2>
-<div class="item"><div>چای لیوانی</div><div class="item-price">120</div></div>
-<div class="item"><div>دمنوش آرامش</div><div class="item-price">180</div></div>
-<div class="item"><div>چای زعفران لیمو</div><div class="item-price">180</div></div>
+<div class="item"><div>چای لیوانی</div><div class="item-price">۱۲۰</div></div>
+<div class="item"><div>دمنوش آرامش</div><div class="item-price">۱۸۰</div></div>
+<div class="item"><div>چای زعفران لیمو</div><div class="item-price">۱۸۰</div></div>
 </div>
-
 <div class="category" id="cat6"><p class="en">Cold Drinks</p><h2>خنک‌نوش</h2>
-<div class="item"><div>لیموناد</div><div class="item-price">340</div></div>
-<div class="item"><div>موهیتو</div><div class="item-price">340</div></div>
-<div class="item"><div>لایم چری</div><div class="item-price">360</div></div>
-<div class="item"><div>رد موهیتو</div><div class="item-price">360</div></div>
-<div class="item"><div>آب پرتقال</div><div class="item-price">440</div></div>
-<div class="item"><div>آیس تی</div><div class="item-price">340</div></div>
+<div class="item"><div>لیموناد</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>موهیتو</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>لایم چری</div><div class="item-price">۳۶۰</div></div>
+<div class="item"><div>رد موهیتو</div><div class="item-price">۳۶۰</div></div>
+<div class="item"><div>آب پرتقال</div><div class="item-price">۴۴۰</div></div>
+<div class="item"><div>آیس تی</div><div class="item-price">۳۴۰</div></div>
 </div>
-
 <div class="category" id="cat7"><p class="en">Smoothie</p><h2>اسموتی</h2>
-<div class="item"><div>ملونا رز</div><div class="item-price">320</div></div>
-<div class="item"><div>گرین میکس</div><div class="item-price">370</div></div>
-<div class="item"><div>بری میکس</div><div class="item-price">390</div></div>
+<div class="item"><div>ملونا رز</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>گرین میکس</div><div class="item-price">۳۷۰</div></div>
+<div class="item"><div>بری میکس</div><div class="item-price">۳۹۰</div></div>
 </div>
-
 <div class="category" id="cat8"><p class="en">Milk Shake</p><h2>میلک‌شیک</h2>
-<div class="item"><div>شیک قهوه شکلات</div><div class="item-price">370</div></div>
-<div class="item"><div>شیک اسپرسو</div><div class="item-price">370</div></div>
-<div class="item"><div>شیک نوتلا</div><div class="item-price">490</div></div>
-<div class="item"><div>شیک لوتوس</div><div class="item-price">410</div></div>
-<div class="item"><div>شیک توت‌فرنگی</div><div class="item-price">390</div></div>
+<div class="item"><div>شیک قهوه شکلات</div><div class="item-price">۳۷۰</div></div>
+<div class="item"><div>شیک اسپرسو</div><div class="item-price">۳۷۰</div></div>
+<div class="item"><div>شیک نوتلا</div><div class="item-price">۴۹۰</div></div>
+<div class="item"><div>شیک لوتوس</div><div class="item-price">۴۱۰</div></div>
+<div class="item"><div>شیک توت‌فرنگی</div><div class="item-price">۳۹۰</div></div>
 </div>
-
 <div class="category" id="cat9"><p class="en">Desserts & Bakery</p><h2>کیک و دسر</h2>
-<div class="item"><div>کیک روز</div><div class="item-price">280</div></div>
-<div class="item"><div>کروسان شکلات</div><div class="item-price">340</div></div>
-<div class="item"><div>کروسان لوتوس</div><div class="item-price">360</div></div>
-<div class="item"><div>کروسان میوه و شکلات</div><div class="item-price">410</div></div>
-<div class="item"><div>کروسان بستنی و شکلات</div><div class="item-price">520</div></div>
-<div class="item"><div>دونات بستنی</div><div class="item-price">320</div></div>
-<div class="item"><div>رول نیویورکی لوتوس</div><div class="item-price">360</div></div>
-<div class="item"><div>رول نیویورکی نوتلا</div><div class="item-price">450</div></div>
-<div class="item"><div>رول نیویورکی ویژه</div><div class="item-price">520</div></div>
-<div class="item"><div>کوکی اسنیکرز</div><div class="item-price">160</div></div>
-<div class="item"><div>کوکی لوتوس</div><div class="item-price">160</div></div>
+<div class="item"><div>کیک روز</div><div class="item-price">۲۸۰</div></div>
+<div class="item"><div>کروسان شکلات</div><div class="item-price">۳۴۰</div></div>
+<div class="item"><div>کروسان لوتوس</div><div class="item-price">۳۶۰</div></div>
+<div class="item"><div>کروسان میوه و شکلات</div><div class="item-price">۴۱۰</div></div>
+<div class="item"><div>کروسان بستنی و شکلات</div><div class="item-price">۵۲۰</div></div>
+<div class="item"><div>دونات بستنی</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>کوکی اسنیکرز</div><div class="item-price">۱۶۰</div></div>
+<div class="item"><div>کوکی لوتوس</div><div class="item-price">۱۶۰</div></div>
 </div>
-
 <div class="category" id="cat10"><p class="en">Breakfast</p><h2>صبحانه</h2>
-<div class="item"><div>نیمرو</div><div class="item-price">220</div></div>
-<div class="item"><div>املت ایرانی</div><div class="item-price">320</div></div>
-<div class="item"><div>کروسان (پنیر و خیار و گوجه)</div><div class="item-price">360</div></div>
+<div class="item"><div>نیمرو</div><div class="item-price">۲۲۰</div></div>
+<div class="item"><div>املت ایرانی</div><div class="item-price">۳۲۰</div></div>
+<div class="item"><div>کروسان پنیر و خیار و گوجه</div><div class="item-price">۳۶۰</div></div>
 </div>
-
 <div class="category" id="cat11"><p class="en">Afternoon Menu</p><h2>عصرانه</h2>
-<div class="item"><div>سیب‌زمینی با سس آلفردو</div><div class="item-price">530</div></div>
-<div class="item"><div>سیب‌زمینی دیپ چدار</div><div class="item-price">500</div></div>
-<div class="item"><div>پاستا آلفردو</div><div class="item-price">680</div></div>
-<div class="item"><div>چیپس پنیر ویژه (دو نفره)</div><div class="item-price">550</div></div>
+<div class="item"><div>سیب‌زمینی با سس آلفردو</div><div class="item-price">۵۳۰</div></div>
+<div class="item"><div>سیب‌زمینی دیپ چدار</div><div class="item-price">۵۰۰</div></div>
+<div class="item"><div>پاستا آلفردو</div><div class="item-price">۶۸۰</div></div>
+<div class="item"><div>چیپس پنیر ویژه دو نفره</div><div class="item-price">۵۵۰</div></div>
 </div>
-
 <div class="footer">کافه لوریان | loriancafe.ir</div>
 </body>
 </html>
