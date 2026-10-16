@@ -11,12 +11,12 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;background:#ffffff;margin:0;color
 .header img.logo{width:130px;height:130px;object-fit:cover;border-radius:50%;border:3px solid #1a2340}
 .header h1{margin:12px 0 0;font-size:26px;color:#1a2340}
 .header p{margin:4px 0;color:#1a2340;font-size:13px}
-.nav{display:flex;gap:8px;overflow-x:auto;padding:12px;background:#fff;position:sticky;top:0;border-bottom:1px solid #e5e7ef}
+.nav{display:flex;gap:8px;overflow-x:auto;padding:12px;background:#fff;position:sticky;top:0;border-bottom:1px solid #e5e7ef;z-index:10}
 .nav a{white-space:nowrap;background:#eef0f7;padding:8px 14px;border-radius:20px;text-decoration:none;color:#1a2340;font-size:13px;font-family:'Vazirmatn',Tahoma}
 .category{padding:18px 14px 5px;max-width:700px;margin:auto}
 .category h2{font-size:19px;color:#1a2340;border-bottom:2px solid #1a2340;padding-bottom:7px}
 .category p.en{font-size:12px;color:#5a668a;margin:0}
-.item{display:flex;justify-content:space-between;align-items:center;background:#fff;margin:9px 0;padding:11px 13px;border-radius:12px;border:1px solid #eef0f7}
+.item{display:flex;justify-content:space-between;align-items:center;gap:12px;background:#fff;margin:9px 0;padding:11px 13px;border-radius:12px;border:1px solid #eef0f7}
 .item-price{color:#1a2340;font-weight:bold;white-space:nowrap}
 .footer{text-align:center;padding:30px;color:#5a668a;font-size:13px}
 </style>
@@ -26,7 +26,7 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;background:#ffffff;margin:0;color
 <img class="logo" src="logo.png" alt="لوگو لوریان">
 <h1>کافه لوریان</h1><p>LORIENT CAFE | منوی دیجیتال</p></div>
 <div class="nav">
-<a href="#cat1">قهوه بدون شیر</a><a href="#cat2">قهوه با شیر</a><a href="#cat3">قهوه سرد</a><a href="#cat4">گرم‌نوش</a><a href="#cat5">دمنوش</a><a href="#cat6">خنک‌نوش</a><a href="#cat7">اسموتی</a><a href="#cat8">میلک‌شیک</a><a href="#cat9">کیک و دسر</a><a href="#cat10">صبحانه</a><a href="#cat11">عصرانه</a>
+<a href="#cat1">قهوه بدون شیر</a><a href="#cat2">قهوه با شیر</a><a href="#cat3">قهوه سرد</a><a href="#cat4">گرم‌نوش</a><a href="#cat5">دمنوش</a><a href="#cat6">خنک‌نوش</a><a href="#cat7">اسموتی</a><a href="#cat8">میلک‌شیک</a><a href="#cat9">کیک و دسر</a><a href="#cat10">صبحانه</a><a href="#cat11">عصرانه</a><a href="#cat12">آیتم‌های اکونومی</a>
 </div>
 <div class="category" id="cat1"><p class="en">Black Coffee</p><h2>قهوه بدون شیر</h2>
 <div class="item"><div>اسپرسو عربیکا</div><div class="item-price">۲۹۰</div></div>
@@ -69,7 +69,7 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;background:#ffffff;margin:0;color
 <div class="item"><div>شیر نسکافه</div><div class="item-price">۳۵۰</div></div>
 <div class="item"><div>ماچا لاته</div><div class="item-price">۴۱۰</div></div>
 </div>
-<div class="category" id="cat5"><p class="en">Tea & Herbal</p><h2>دمنوش</h2>
+<div class="category" id="cat5"><p class="en">Tea &amp; Herbal</p><h2>دمنوش</h2>
 <div class="item"><div>چای لیوانی</div><div class="item-price">۱۴۰</div></div>
 <div class="item"><div>دمنوش آرامش</div><div class="item-price">۲۰۰</div></div>
 <div class="item"><div>چای زعفران لیمو</div><div class="item-price">۲۰۰</div></div>
@@ -94,7 +94,7 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;background:#ffffff;margin:0;color
 <div class="item"><div>شیک لوتوس</div><div class="item-price">۴۵۰</div></div>
 <div class="item"><div>شیک توت‌فرنگی</div><div class="item-price">۴۵۰</div></div>
 </div>
-<div class="category" id="cat9"><p class="en">Desserts & Bakery</p><h2>کیک و دسر</h2>
+<div class="category" id="cat9"><p class="en">Desserts &amp; Bakery</p><h2>کیک و دسر</h2>
 <div class="item"><div>کیک روز</div><div class="item-price">۳۲۰</div></div>
 <div class="item"><div>کروسان شکلات</div><div class="item-price">۳۶۰</div></div>
 <div class="item"><div>کروسان لوتوس</div><div class="item-price">۳۶۰</div></div>
@@ -103,6 +103,9 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;background:#ffffff;margin:0;color
 <div class="item"><div>دونات بستنی</div><div class="item-price">۳۲۰</div></div>
 <div class="item"><div>کوکی اسنیکرز</div><div class="item-price">۱۹۰</div></div>
 <div class="item"><div>کوکی لوتوس</div><div class="item-price">۱۹۰</div></div>
+<div class="item"><div>دسر شکلاتی</div><div class="item-price">۳۹۰</div></div>
+<div class="item"><div>دسر تیرامیسو</div><div class="item-price">۳۹۰</div></div>
+<div class="item"><div>دسر روز</div><div class="item-price">۳۹۰</div></div>
 </div>
 <div class="category" id="cat10"><p class="en">Breakfast</p><h2>صبحانه</h2>
 <div class="item"><div>نیمرو</div><div class="item-price">۲۲۰</div></div>
@@ -113,7 +116,14 @@ body{font-family:'Vazirmatn',Tahoma,sans-serif;background:#ffffff;margin:0;color
 <div class="item"><div>سیب‌زمینی با سس آلفردو</div><div class="item-price">۵۸۰</div></div>
 <div class="item"><div>سیب‌زمینی دیپ چدار</div><div class="item-price">۵۵۰</div></div>
 <div class="item"><div>پاستا آلفردو</div><div class="item-price">۶۸۰</div></div>
-<div class="item"><div>چیپس پنیر ویژه  </div><div class="item-price">۵۵۰</div></div>
+<div class="item"><div>چیپس پنیر ویژه</div><div class="item-price">۵۵۰</div></div>
+</div>
+<div class="category" id="cat12"><p class="en">Economy Items</p><h2>آیتم‌های اکونومی</h2>
+<div class="item"><div>دسر شکلاتی + چای لیوانی</div><div class="item-price">۴۹۰</div></div>
+<div class="item"><div>دسر تیرامیسو + چای لیوانی</div><div class="item-price">۴۹۰</div></div>
+<div class="item"><div>دسر روز + چای لیوانی</div><div class="item-price">۴۹۰</div></div>
+<div class="item"><div>کروسان شکلات + چای لیوانی</div><div class="item-price">۴۵۰</div></div>
+<div class="item"><div>دسر روز + آمریکانو بلند</div><div class="item-price">۵۹۰</div></div>
 </div>
 <div class="footer">کافه لوریان | loriancafe.ir</div>
 </body>
